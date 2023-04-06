@@ -4,7 +4,7 @@ import { firestore } from '../db';
 import { collection, doc, onSnapshot, setDoc } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 
-const AUTH_TOKEN = '';
+const AUTH_TOKEN = process.env.AUTH_TOKEN;
 const endpoint = `https://api.thenextleg.io`;
 
 export default function Home() {
