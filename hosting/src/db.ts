@@ -7,12 +7,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.DB_apiKey,
-  authDomain: process.env.DB_authDomain,
-  projectId: process.env.DB_projectId,
-  storageBucket: process.env.DB_storageBucket,
-  messagingSenderId: process.env.DB_messagingSenderId,
-  appId: process.env.DB_appId,
+  apiKey: "AIzaSyBtQea26pj-gsRN71IrLbLxB3MipMrQKN4",
+authDomain: "midjourney-api-455cf.firebaseapp.com",
+projectId: "midjourney-api-455cf",
+storageBucket: "midjourney-api-455cf.appspot.com",
+messagingSenderId: "918077772590",
+appId: "1:918077772590:web:833ba198ff7cb4c51160bf",
 };
 
 // Initialize Firebase
